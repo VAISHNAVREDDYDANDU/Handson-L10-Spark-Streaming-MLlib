@@ -8,7 +8,8 @@ The project contains two main tasks:
 - **Task 4:** Real-time fare prediction for each incoming trip record
 - **Task 5:** Real-time fare trend prediction using window-based feature engineering
 
-## Files Included
+## Files Included<img width="845" height="527" alt="task 5 screenshot" src="https://github.com/user-attachments/assets/5f6d6b38-a766-42df-9bc1-c6a1d76d277f" />
+
 
 - `task4.py` - Predicts fare for each streaming trip using a trained Linear Regression model
 - `task5.py` - Predicts average fare trend using time-windowed streaming data

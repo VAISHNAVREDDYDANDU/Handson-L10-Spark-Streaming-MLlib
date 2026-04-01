@@ -16,7 +16,8 @@ The project contains two main tasks:
 - `training-dataset.csv` - Historical training dataset used to train the models
 
 ## Task 4 - Fare Prediction
-In Task 4, a Linear Regression model is trained using the historical dataset.
+In Task 4, a Linear Regression model is trained using the historical dataset.<img width="856" height="518" alt="task 4 screenshot" src="https://github.com/user-attachments/assets/63d12014-2eb7-441f-9e48-6936788c7191" />
+
 
 ### Steps performed
 1. Loaded `training-dataset.csv`
@@ -72,7 +73,8 @@ In Task 5, a Linear Regression model is trained using time-based features from h
 python3 data_generator.py
 
 ### Step 2: Run Task 4 (Fare Prediction)
-```bash
+```bash<img width="845" height="527" alt="task 5 screenshot" src="https://github.com/user-attachments/assets/fe881b96-fc88-4b13-a28a-556094cdb0d3" />
+
 python3 task4.py
 
 ### Step 3: Run Task 5 (Fare Trend Prediction)

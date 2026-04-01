@@ -7,19 +7,13 @@ The project contains two main tasks:
 
 - **Task 4:** Real-time fare prediction for each incoming trip record
 - **Task 5:** Real-time fare trend prediction using window-based feature engineering
-
-## Files Included<img width="845" height="527" alt="task 5 screenshot" src="https://github.com/user-attachments/assets/5f6d6b38-a766-42df-9bc1-c6a1d76d277f" />
-
-
 - `task4.py` - Predicts fare for each streaming trip using a trained Linear Regression model
 - `task5.py` - Predicts average fare trend using time-windowed streaming data
 - `data_generator.py` - Generates streaming trip data and sends it to localhost on port 9999
 - `training-dataset.csv` - Historical training dataset used to train the models
 
 ## Task 4 - Fare Prediction
-In Task 4, a Linear Regression model is trained using the historical dataset.<img width="856" height="518" alt="task 4 screenshot" src="https://github.com/user-attachments/assets/63d12014-2eb7-441f-9e48-6936788c7191" />
-
-
+In Task 4, a Linear Regression model is trained using the historical dataset
 ### Steps performed
 1. Loaded `training-dataset.csv`
 2. Cast `distance_km` and `fare_amount` to `DoubleType`

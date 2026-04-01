@@ -70,9 +70,19 @@ In Task 5, a Linear Regression model is trained using time-based features from h
 ### Step 1: Start the data generator
 ```bash
 python3 data_generator.py
+
 ### Step 2: Run Task 4 (Fare Prediction)
 ```bash
 python3 task4.py
+
 ### Step 3: Run Task 5 (Fare Trend Prediction)
 ```bash
 python3 task5.py
+
+## Output Screenshots
+
+### Task 4 Output
+![Task 4 Output](task 4 screenshot.png)
+
+### Task 5 Output
+![Task 5 Output](task 5 screenshot.png)
